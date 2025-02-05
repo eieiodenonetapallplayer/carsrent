@@ -9,60 +9,60 @@ const portfolioItems = [
     id: 1,
     title: 'ผลงาน 1',
     images: [
-      '/src/assets/Portfolio/id1/1.jpg',
-      '/src/assets/Portfolio/id1/2.jpg',
-      '/src/assets/Portfolio/id1/3.jpg',
-      '/src/assets/Portfolio/id1/4.jpg',
+      'https://img5.pic.in.th/file/secure-sv1/120520d64761c535a.jpg',
+      'https://img2.pic.in.th/pic/20d045bad6ab9d64d.jpg',
+      'https://img5.pic.in.th/file/secure-sv1/3269055d07360bb42.jpg',
+      'https://img5.pic.in.th/file/secure-sv1/488a6124330ce034e.jpg',
     ]
   },
   {
     id: 2,
     title: 'ผลงาน 2',
     images: [
-      '/src/assets/Portfolio/1.jpg',
-      '/src/assets/Portfolio/2.jpg',
-      '/src/assets/Portfolio/3.jpg',
-      '/src/assets/Portfolio/4.jpg',
+      'https://img5.pic.in.th/file/secure-sv1/147477f83b1304a81.jpg',
+      'https://img2.pic.in.th/pic/2cd93fd493d108d8a.jpg',
+      'https://img2.pic.in.th/pic/378f317c93d0afb6c.jpg',
+      'https://img2.pic.in.th/pic/49a27256e3b179563.jpg',
     ]
   },
   {
     id: 3,
     title: 'ผลงาน 3',
     images: [
-      '/src/assets/Portfolio/1.jpg',
-      '/src/assets/Portfolio/2.jpg',
-      '/src/assets/Portfolio/3.jpg',
-      '/src/assets/Portfolio/4.jpg',
+      'https://img2.pic.in.th/pic/1ff28f3733f08de56.jpg',
+      'https://img5.pic.in.th/file/secure-sv1/2ea0d92cba4367c94.jpg',
+      'https://img2.pic.in.th/pic/3c5829654b9956ed0.jpg',
+      'https://img5.pic.in.th/file/secure-sv1/4720aed3940bcaf3d.jpg',
     ]
   },
   {
     id: 4,
     title: 'ผลงาน 4',
     images: [
-      '/src/assets/Portfolio/1.jpg',
-      '/src/assets/Portfolio/2.jpg',
-      '/src/assets/Portfolio/3.jpg',
-      '/src/assets/Portfolio/4.jpg',
+      'https://img5.pic.in.th/file/secure-sv1/120520d64761c535a.jpg',
+      'https://img2.pic.in.th/pic/20d045bad6ab9d64d.jpg',
+      'https://img5.pic.in.th/file/secure-sv1/3269055d07360bb42.jpg',
+      'https://img5.pic.in.th/file/secure-sv1/488a6124330ce034e.jpg',
     ]
   },
   {
     id: 5,
     title: 'ผลงาน 5',
     images: [
-      '/src/assets/Portfolio/1.jpg',
-      '/src/assets/Portfolio/2.jpg',
-      '/src/assets/Portfolio/3.jpg',
-      '/src/assets/Portfolio/4.jpg',
+      'https://img5.pic.in.th/file/secure-sv1/147477f83b1304a81.jpg',
+      'https://img2.pic.in.th/pic/2cd93fd493d108d8a.jpg',
+      'https://img2.pic.in.th/pic/378f317c93d0afb6c.jpg',
+      'https://img2.pic.in.th/pic/49a27256e3b179563.jpg',
     ]
   },
   {
     id: 6,
     title: 'ผลงาน 6',
     images: [
-      '/src/assets/Portfolio/1.jpg',
-      '/src/assets/Portfolio/2.jpg',
-      '/src/assets/Portfolio/3.jpg',
-      '/src/assets/Portfolio/4.jpg',
+      'https://img2.pic.in.th/pic/1ff28f3733f08de56.jpg',
+      'https://img5.pic.in.th/file/secure-sv1/2ea0d92cba4367c94.jpg',
+      'https://img2.pic.in.th/pic/3c5829654b9956ed0.jpg',
+      'https://img5.pic.in.th/file/secure-sv1/4720aed3940bcaf3d.jpg',
     ]
   },
 
