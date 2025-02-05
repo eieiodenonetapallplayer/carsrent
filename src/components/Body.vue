@@ -18,6 +18,7 @@ const scrollToAbout = () => {
 }
 
 const images = [
+  'https://img2.pic.in.th/pic/102492c6f5ceeef4d.jpg', 
   'https://sv1.img.in.th/iQQSsr.jpeg',  
   'https://sv1.img.in.th/iQQnEk.jpeg',
   'https://sv1.img.in.th/iQQuWl.jpeg',
