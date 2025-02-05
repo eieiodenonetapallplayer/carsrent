@@ -4,27 +4,6 @@ import { ref } from "vue";
 const cars = ref([
   {
     id: 1,
-    name: "Toyota Alphard",
-    model: "2018 30 Series",
-    price: "฿4,639,000",
-    engine: "2.5L Hybrid",
-    power: "246 hp",
-    transmission: "E-CVT",
-    seats: "7",
-    features: ["Leather Seats", "Moonroof", "Power Doors", "JBL Sound System"],
-    images: [
-      "https://img2.pic.in.th/pic/iQkK6L-Photoroom.png",
-      "https://sv1.img.in.th/iQkK6L.jpeg",
-      "https://sv1.img.in.th/iQkuXY.jpeg",
-      "https://sv1.img.in.th/iQkPk7.jpeg",
-      "https://sv1.img.in.th/iQkLlp.jpeg",
-      "https://sv1.img.in.th/iQkmd5.jpeg",
-      "https://sv1.img.in.th/iQktfJ.jpeg",
-      "https://sv1.img.in.th/iQkZ7y.jpeg",
-    ],
-  },
-  {
-    id: 2,
     name: "Toyota Alphard Sc30",
     "model": "2022 SC30",
     "price": "฿4,739,000",
@@ -46,7 +25,7 @@ const cars = ref([
     ],
   },
   {
-    id: 3,
+    id: 2,
     name: "Toyota Alphard 2024",
     "model": "2024 Limited Edition",
     "price": "฿5,239,000",
@@ -68,7 +47,7 @@ const cars = ref([
     ],
   },
   {
-    id: 4,
+    id: 3,
     name: "Mercedes Benz Sprinter",
     "model": "รุ่นใหม่ล่าสุด",
     "price": "฿3,499,000",
@@ -93,7 +72,7 @@ const cars = ref([
     ],
   },
   {
-    id: 5,
+    id: 4,
     name: "Majesty",
     "model": "Majesty 2020",
     "price": "฿5,239,000",
@@ -118,7 +97,7 @@ const cars = ref([
     ],
   },
   {
-    id: 6,
+    id: 5,
     name: "New Hyundai H1",
     "model": "New Hyundai H1",
     "price": "฿5,239,000",
@@ -146,7 +125,7 @@ const cars = ref([
     ],
   },
   {
-    id: 7,
+    id: 6,
     name: "New Toyota Commuter 2020",
     "model": "Super V.I.P. แบบ 8 ที่นั่ง",
     "price": "฿5,239,000",
@@ -174,7 +153,7 @@ const cars = ref([
     ],
   },
   {
-    id: 8,
+    id: 7,
     name: "Hyundai Staria",
     "model": "Hyundai Staria",
     "price": "฿4,299,000",
@@ -197,7 +176,7 @@ const cars = ref([
     ],
   },
   {
-    id: 9,
+    id: 8,
     name: "New Fortuner 2024",
     "model": "New Fortuner 2024",
     "price": "฿2,899,000",
@@ -220,7 +199,7 @@ const cars = ref([
     ],
   },
   {
-    id: 10,
+    id: 9,
     name: "Camry",
     "model": "Camry 2023",
     "price": "฿2,199,000",
