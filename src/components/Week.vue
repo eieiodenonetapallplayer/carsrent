@@ -244,46 +244,99 @@ const dailyRentals = ref([
 }
 
 @media (max-width: 768px) {
-  .spec-item {
-    padding: 1rem;
-    gap: 0.8rem;
-    justify-content: flex-start;
+  .daily-rentals {
+    padding: 2rem 1rem; 
   }
 
-  .spec-item i {
-    font-size: 1.1rem;
-    width: 20px;
-    margin-right: 0.3rem;
+  .section-header {
+    margin-bottom: 2rem; 
   }
 
-  .spec-item span {
+  .section-header h1 {
+    font-size: 2rem; 
+  }
+
+  .subtitle {
+    font-size: 1rem; 
+  }
+
+  .rental-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem; 
+    padding: 0; 
+  }
+
+  .rental-card {
+    border-radius: 15px; 
+  }
+
+  .car-image {
+    height: 220px; 
+  }
+
+  .car-info {
+    padding: 1.5rem; 
+  }
+
+  .car-info h2 {
+    font-size: 1.5rem;
+  }
+
+  .car-info h3 {
+    font-size: 1rem; 
+    margin-bottom: 1rem;
+  }
+
+  .price {
+    font-size: 1.6rem; 
+    padding: 0.8rem; 
+    margin-bottom: 1rem;
+  }
+
+  .price span {
     font-size: 0.9rem;
   }
 
   .specs {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.8rem;
-    padding: 0.5rem;
-  }
-
-  .feature {
-    padding: 0.8rem;
-    margin-bottom: 0.3rem;
-  }
-
-  .feature i {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .specs {
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
+    margin-bottom: 1rem;
   }
 
   .spec-item {
     padding: 0.8rem;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .daily-rentals {
+    padding: 1.5rem 0.8rem; 
+  }
+
+  .section-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .rental-card {
+    border-radius: 12px;
+  }
+
+  .car-image {
+    height: 180px; 
+  }
+
+  .specs {
+    grid-template-columns: 1fr; 
+  }
+
+  .features {
+    margin-bottom: 1.5rem;
+  }
+
+  .feature {
+    padding: 0.5rem;
+    font-size: 0.9rem;
   }
 }
 </style>
