@@ -1,0 +1,86 @@
+:root {
+
+  font-family: monospace;
+
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #141414;
+  --bg-gradient: linear-gradient(135deg, 
+    rgba(10, 10, 10, 0.97),
+    rgba(20, 20, 20, 0.95)
+  );
+  --bg-overlay: rgba(212, 175, 55, 0.03);
+
+}
+
+html, body {
+  background-color: var(--bg-primary);
+  background-image: var(--bg-gradient);
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    repeating-linear-gradient(
+      45deg,
+      var(--bg-overlay) 0,
+      var(--bg-overlay) 1px,
+      transparent 1px,
+      transparent 50%
+    );
+  background-size: 10px 10px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.divider-container {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.luxury-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.divider-line {
+  height: 1px;
+  flex-grow: 1;
+  background: linear-gradient(to right, 
+    rgba(212, 175, 55, 0),
+    rgba(212, 175, 55, 0.5),
+    rgba(212, 175, 55, 0)
+  );
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+}
+
+.divider-icon {
+  color: #D4AF37;
+  font-size: 1.5rem;
+  text-shadow: 
+    0 0 10px rgba(212, 175, 55, 0.3),
+    0 0 20px rgba(212, 175, 55, 0.3);
+  animation: iconGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes iconGlow {
+  from {
+    text-shadow: 
+      0 0 10px rgba(212, 175, 55, 0.3),
+      0 0 20px rgba(212, 175, 55, 0.3);
+  }
+  to {
+    text-shadow: 
+      0 0 20px rgba(212, 175, 55, 0.5),
+      0 0 30px rgba(212, 175, 55, 0.5);
+  }
+}
