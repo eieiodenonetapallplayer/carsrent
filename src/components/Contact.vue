@@ -17,11 +17,11 @@ const formData = ref({
 // Contact info
 const socialContacts = {
   lineId: "luvnaja",
-  lineId2: "luvnaja2",
-  tel: "+66-123-456-789",
+  lineId2: "0979988416",
+  tel: "+66 098-629-8000",
   whatsapp: "whatsapp-id",
   wechat: "wechat-id",
-  email: "contact@example.com",
+  email: "onthetopcarrent@gmail.com",
 };
 
 // Form state
