@@ -99,7 +99,7 @@ const currentYear = new Date().getFullYear();
     </div>
 
     <div class="footer-bottom">
-      <p>&copy; {{ currentYear }} Create with ❤️ by Goodplace Team</p>
+      <p>&copy; {{ currentYear }} Create with ❤️ by Goodplace Team / 4levy</p>
     </div>
   </footer>
 </template>
