@@ -25,7 +25,7 @@ const currentTime = ref("");
 
 const randomMessages = [
   "✨ Hi There!",
-  "🌟 Message from 4levy",
+  "🌟 Message from ceo, thankyou",
   "💫 click again eiei",
   "⭐ Premium service",
   "🌠 Your journey begins here",
