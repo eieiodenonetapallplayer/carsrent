@@ -181,7 +181,7 @@ onUnmounted(() => {
       <div class="brand">
         <img src="../assets/Logo/Logo3.png" alt="Logo" class="logo-img" />
         <div class="logo-container">
-          <span class="logo-text">Logo!</span>
+          <span class="logo-text">Number 1 carrent!</span>
           <div class="logo-line"></div>
           <span class="logo-subtitle">Hello there message from Ceo</span>
         </div>
